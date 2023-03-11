@@ -1,0 +1,31 @@
+# Soru1: Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+# String : Metinsel ifadeler için kullanılır. Örnek = "abc"
+# Integer : Tam sayı değerleri için kullanılır. Örnek = 5
+# Float : Ondalıklı sayı değerleri için kullanılır. Örnek = 3,14
+# Complex : Komplex değerler içeren veri tipidir. Örnek = 2k
+# Boolean : Mantıksal bir veri tipidir. True ya da False döndürür.
+# List : Tek bir değişkende birden fazla veri tutmak için kullanılır. Örek : Meyve = ["elma", "armut", 5, 10] 
+# Tuple : Tek bir değişkende birden fazla veri tutmak için kullanılır. List'ten farkı değiştirilemez olmasıdır.
+# Dictionary : key:value olarak verileri tutmak için kullanılır. Dict = {"Isım" : "Ferit", ...}
+
+# Soru2: Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz
+
+# Kurs isimleri ve eğitmen isimleri string ifade olarak belirtilmiştir
+# Kurs tamamlanma oranı int. ifade ile belirtilmiştir
+
+
+# Soru3: Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz
+
+
+Mail = input ("Mail adresinizi giriniz")
+sifre = int(input("Şifrenizi giriniz"))
+
+if Mail == ("Ex@hotmail.com") and sifre == (123456):
+    print("Giriş başarılı")
+
+else:
+    print("Hatalı giriş yaptınız!")
+
+
+
