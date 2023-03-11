@@ -1,2 +1,2 @@
 # KodlamaIo
-# Ders sonu ödevleri içerir.
+Ders sonu ödevleri içerir.
