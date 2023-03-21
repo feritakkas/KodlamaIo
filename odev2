@@ -1,0 +1,63 @@
+StudentList = ["Ferit", "Can", "Ahmet","Fatih","Alpay","Emre","Benji"]
+
+def addName():
+    name = input("Eklemek istediğiniz isim ve soyisminizi giriniz!: ")
+    StudentList.append(name.title())
+    print(StudentList)
+    return()
+
+def removeName():
+    name = input("Çıkarmak istediğiniz ismi giriniz!: ")
+    StudentList.remove(name)
+    print(StudentList)
+    return
+
+def multipleAdd():
+    count = int(input("kaç kişi ekleyeceksiniz?: "))
+    for i in range(count):
+        name = input("Eklemek istediğiniz isimleri giriniz!: ")
+        StudentList.append(name.title())
+    print(StudentList)
+    return
+
+def printList():
+    print(StudentList)
+    return
+
+def indexList():
+    
+    print("Öğrenci listesi: "), StudentList
+    studentNumber= input("Numarasını öğrenmek istediğiniz öğrencinin adını giriniz!: ")
+    print(StudentList.index(studentNumber))
+    return
+
+
+    
+def multidelete():
+    removeCount = int(input("Listeden kaç kişi çıkarmak istiyorsunuz? "))
+    i=0
+    while True:
+        if removeCount == i:
+            print("Çıkarmak istediğiniz kişi sayısını kontrol ediniz!")
+            break
+        elif removeCount < len(StudentList):
+            name = input("Çıkarmak istediğiniz öğrenci ismini giriniz! ")
+            StudentList.remove(name)
+            i += 1
+            print(StudentList)
+        else:
+            print("Çıkarmak istediğiniz kişi sayısını kontrol ediniz!!")
+        break
+        
+    print("Güncel Öğrenci listesi= " , StudentList)
+ 
+
+
+
+  
+addName()
+removeName()
+multipleAdd()
+printList()
+indexList()
+multidelete()
